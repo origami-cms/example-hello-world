@@ -3,8 +3,6 @@ window.addEventListener('load', () => {
     const headerWord = header.querySelector('span');
 
     const words = [
-        'Bonjour le monde!',
-
         'Hello, World!',
         '¡Hola Mundo!',
         '你好，世界!',
@@ -16,6 +14,7 @@ window.addEventListener('load', () => {
         '안녕, 세상!',
         'Hallo Welt!',
         'שלום עולם!',
+        'Bonjour le monde!',
     ];
 
     let index = 0;
