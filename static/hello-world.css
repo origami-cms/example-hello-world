@@ -1,0 +1,35 @@
+@keyframes cursor {
+    0%, 49% { border-right-color: transparent; }
+    51%, 99% { border-right-width: var(--color-main); }
+}
+
+.logo {
+    width: var(--size-large);
+}
+
+h1.card {
+    width: 30rem;
+    text-align: center;
+    padding: var(--size-tiny);
+    font-size: var(--font-size-large);
+    margin: var(--size-main);
+    border-radius: var(--size-large);
+}
+
+h1 span {
+    border-right: 0.3rem solid var(--color-main);
+}
+
+h1 span.blink {
+    animation: cursor 1s infinite;
+}
+
+
+@media (min-width: 400px) {
+    h1.card {
+        width: 42rem;
+        font-size: var(--font-size-huge);
+        padding: var(--size-main);
+        border-radius: var(--size-huge);
+    }
+}

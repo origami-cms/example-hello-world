@@ -1,0 +1,10 @@
+{
+    "app": {
+        "name": "Origami Site"
+    },
+    "server": {
+        "port": 9999,
+        "secret": "28059c6b1f6c6d61c597dcd949f9e430",
+        "static": "./static"
+    }
+}
