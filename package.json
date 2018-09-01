@@ -1,5 +1,7 @@
 {
     "name": "origami-site",
-    "dependencies": {},
+    "dependencies": {
+        "origami-cms": "^0.2.15-alpha.5"
+    },
     "scripts": {}
 }
